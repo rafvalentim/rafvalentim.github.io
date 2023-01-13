@@ -1,0 +1,90 @@
+body {
+    align-content: center;
+    margin: 0;
+}
+
+h1 {
+    color: black;
+    border: 10px solid #da121a;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-right: 400px;
+    margin-left: 400px;
+    height: 106px;
+    width: 690px;
+    margin-top: 7.44;
+    padding-top: 64px;
+    padding-bottom: 50px;
+}
+
+/* header styles */
+.header {
+    text-align: right;
+    color: aliceblue;
+    background-image: url(http://www.prespartners.com/wp-content/uploads/2015/03/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 273px;
+    width: 100%;
+    padding-top: 15px;
+    margin: 0;
+}
+
+.header__logo {
+    height: 192px;
+    width: 387px;
+    width: 426px;
+    border-right-width: 0px;
+    margin-right: 122px;
+    margin-top: 22px;
+}
+
+/* navbar styles */
+.navbar {
+    background-color: black;
+    border-top: 7px solid #628dc5f7;
+    border-bottom: 7px solid #628dc5f7;
+}
+
+.navbar__list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 0;
+}
+
+.navbar__item {
+    color: white;
+    padding: 10px 29px 0px 0px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.navbar__link {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar__link:visited {
+    color: white;
+}
+
+.navbar__link:hover {
+    color: #da121a;
+}
+
+/* footer styles */
+.footer {
+    height: 349px;
+    margin-bottom: 0%;
+    overflow: hidden;
+}
+
+.footer__img {
+    width: 100%;
+    height: 350px;
+    padding-bottom: 0px;
+}
